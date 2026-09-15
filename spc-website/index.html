@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LET'S MAKE ST PATS GREAT AGAIN</title>
+    <!-- CSS & JS -->
+     <link rel="stylesheet" href="global.css">
+     <script src="main.js" defer></script>
+     <script>
+        document.addEventListener('DOMContentLoaded', async (event) => {
+            const sectionA1 = document.getElementById('section-a1');
+            const sectionA2 = document.getElementById('section-a2');
+            const nav = document.querySelector('nav');
+
+            sectionA1.classList.replace('pre-animation', 'fade-in');
+            await wait(250);
+            sectionA2.classList.replace('pre-animation', 'fade-in');
+            await wait(250);
+            nav.classList.replace('pre-animation', 'fade-in');
+        });
+     </script>
+     <!-- FAVICON -->
+      <link rel="icon" href="logo.webp">
+</head>
+<body>
+    <header>
+            <img src="logo.webp" width="100px">
+            <hgroup>
+                <h1><i>MANA MOVEMENT</i></h1>
+                <p><i>LET'S MAKE ST PATS GREAT AGAIN</i></p>
+            </hgroup>
+        <hr>
+    </header>
+    <main>
+        <section id="section-a1" class="pre-animation">
+            <h2>Who are we?</h2>
+            <hr>
+            <p>
+                We are the Mana Movement — a team of Year 9 students from St Patrick’s College who want to make a positive difference.
+
+Mana represents strength, respect, leadership, courage, and positive influence.
+
+We are here to listen to students, represent their ideas, and work for change.
+
+<b><i>WE MOVE WITH MANA.</i></b>
+Your voice. Our movement.
+            </p>
+        </section>
+        <section id="section-a2" class="pre-animation">
+            <h2>What will we do?</h2>
+            <hr>
+            <p>
+We will listen to students, represent their ideas, and work for positive change.<br>
+
+<ul>
+<li>As the rise of AI is happening, our focus on education is to allow students to learn what they need to learn by cutting down on excessive AI usage, and opening more electives so that students learn what they need to learn. As a catholic school, we believe that religion is under-represented in our curriculum. Despite having RE as a compulsory subject for all years, we should have mandatory prayers for periods before interval and lunch time, and a prayer on period 5.</li>
+
+<li>As our toilets are getting worse and worse day-by-day, we will ensure stricter measures are taken in order to keep our bathrooms hygenic. We will ensure even tighter regulations against vaping by installing sensors that will detect the chemicals found in vapour from vapes. </li>
+
+<li>We are aware that bullying has been plaguing our school for years. To treat the cancer of our school, we will not tolerate bullying like the other leaders. We will enforce strict security by implementing cameras funded by donations, and utilise the cameras properly as we believe previous leaderships did not bother properly using them and purposing them as scarecrows.</li>
+
+<li>Since the tuck shop is expensive, we are planning to lower prices. We will do this by buying bulk items and selling them for cheap.</li> 
+
+</ul>
+
+Most importantly, we will listen to YOU.
+
+<b><i>WE MOVE WITH MANA.</i></b>
+We listen. We represent. We act.
+</p>
+        </section>
+    </main>
+    <nav class="nav pre-animation">
+        <h2>Navigation</h2><br>
+        <button onclick="window.location.href='suggestions.html'">Suggest</button>
+        <button onclick="window.location.href='dinayas.html'">MPs of Mana Movement</button>
+        <button onclick="window.location.href='policy.html'">Policies</button>
+        <button onclick="window.location.href='video.html'">Our Video</button>
+    </nav>
+    <footer>
+        <p><i>&copy; Mana Movement 2026</i></p>
+    </footer>
+    <!-- MODALS -->
+</body>
+</html>
