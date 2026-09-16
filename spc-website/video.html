@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Video</title>
+    <link rel="stylesheet" href="global.css">
+    <script src="main.js"v defer></script>
+    <script>
+        document.addEventListener("DOMContentLoaded", async (event) => {
+            wwq = document.getElementById('wwq');
+            nav = document.querySelector('nav');
+
+            wwq.classList.replace('pre-animation', 'fade-in');
+            await wait(250);
+            nav.classList.replace('pre-animation', 'fade-in');
+        });
+    </script>
+</head>
+<body>
+    <header>
+        <img src="logo.webp" width="100px">
+        <hgroup>
+            <h1><i>MANA MOVEMENT</i></h1>
+             <p><i>LET'S MAKE ST PATS GREAT AGAIN</i></p>
+        </hgroup>
+        <hr>
+    </header>
+    <main>
+        <section id="wwq" class="pre-animation">
+            <h2>Our Video</h2>
+            <hr>
+            <video width="300px" controls>
+                <source src="Mana Movement 1.mp4">
+            </video>
+        </section>
+    </main>
+    <nav class="nav pre-animation">
+        <button onclick="window.location.href='index.html'">Back</button>
+    </nav>
+    <footer>
+        <p><i>&copy; Mana Movement 2026</i></p>
+    </footer>
+</body>
+</html>hu
